@@ -27,3 +27,16 @@ Dataset contains the following columns:
 * Latitude: The latitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.
 * Longitude: The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.
 * Location: The location where the incident occurred
+
+# Facebook Prophet
+
+Prophet is open source software released by Facebook’s Core Data Science team.
+Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects. 
+Prophet works best with time series that have strong seasonal effects and several seasons of historical data. 
+
+Prophet implements an additive regression model with four elements:
+
+* A piecewise linear, Prophet automatically picks up change points in the data and identifies any change in trends.  
+* A yearly seasonal component modeled using Fourier series.
+* A weekly seasonal component.
+* A holiday list that can be manually provided.
