@@ -28,6 +28,7 @@ Dataset contains the following columns:
 * Longitude: The longitude of the location where the incident occurred. This location is shifted from the actual location for partial redaction but falls on the same block.
 * Location: The location where the incident occurred
 
+Data Source: https://www.kaggle.com/currie32/crimes-in-chicago
 # Facebook Prophet
 
 Prophet is open source software released by Facebook’s Core Data Science team.
